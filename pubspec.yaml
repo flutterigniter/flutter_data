@@ -1,0 +1,22 @@
+name: flutter_data
+description: An opinionated way to structure data-driven Flutter apps
+version: 0.0.1
+homepage: https://github.com/flutterigniter/flutter_data
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  source_gen: ^0.9.4+6
+  flutter_hooks: ^0.7.0
+  dio: ^3.0.7
+  json_serializable: ^3.2.3
+  hive: ^1.1.1
+  path_provider: ^0.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
